@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script type="text/javascript" src="js/libs/require.js" ></script>
+	</head>
+	<body>
+		<div class="cattopmax">
+			<div class="cattop">
+				<h1><img src="img/logo.png"/></h1>
+				<ul>
+					<li><a href="#">帮助中心</a></li>
+					<li><a href="#">关注幸运猫</a></li>
+					<li><a href="#">首页</a></li>					
+				</ul>
+			</div>
+		</div>
+		<div class="login">
+			<img class="imgleft" src="img/login2_03.png"/>
+			<div class="rightlogin">
+				<div class="rightlogintext">
+					账号登录
+				</div>				
+				<div class="righttext">
+					<form action="" method="post">
+						<input type="text" name="user" required id="user" value="" placeholder="用户名(手机号)"/>
+							<div class="fen"></div>
+							<input type="password" required name="pws" id="pws" value="" placeholder="密码" />
+						<input type="submit" id="btu" value="登录"/>						
+					</form>						
+						<img src="img/login2_06.png" />
+				</div>
+			</div>
+			<div class="leftlogin">
+				<div class="leftlogintext">
+					账号注册
+				</div>
+				<div class="lefttext">
+					<form action="" method="post">
+						<input type="text" name="zhuceuser" required id="zhuceuser" value="" placeholder="用户名(手机号)"/>
+							<div class="fen"></div>
+					<input type="password" name="zhucepwd" id="zhucepwd" required value="" placeholder="密码" />						<div class="fen"></div>
+					<input type="text" id="yanzhengma" placeholder="输入右边验证码"/><div id="yannum">0000</div><span class="title">点击图片刷新</span>
+				<div class="jiance">
+				  	<input  type="checkbox" id="check"/><a href="#" class="xieyi">《幸运猫用户协议》</a>
+				 </div> 
+				 <input type="submit" id="zhucebtu" value="立即注册"/>
+						
+				</form>
+					
+				</div>
+			</div>
+		</div>
+		<div class="footeradv">
+			<div class="imgadv">
+				<img src="img/footeravd_01.png" />
+			</div>
+			<div class="imgadv2">
+				<img src="img/www_03.png" />
+			</div>
+		</div>
+		<script>
+			require(["js/libs/require.config"],function(){
+				require(["model/login"])
+			})
+		</script>
+	</body>
+</html>

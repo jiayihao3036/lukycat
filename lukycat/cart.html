@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/cart.css" />
+		<script type="text/javascript" src="js/libs/require.js" ></script>
+	</head>
+	<body>
+		<div class="cattopmax">
+			<div class="cattop">
+				<span ><a href="#" class="cattopa">请登录</a></span>
+				<span class="a"></span>
+				<span ><a href="#" class="cattopa">免费注册</a></span>
+				<div class="topright">
+					<span ><a href="#" class="cattopa">帮助中心</a></span>
+					<span class="a"></span>
+					<span>客服热线：400-808-9136</span>
+				</div>
+			</div>
+		</div>
+		<div class="cattopmax2">
+			<div class="cattop2">
+				<h1><a href="#"><img src="img/logo.png"/></a></h1>
+				<input type="text" id="cattopinp" value="" placeholder="输入要搜索的商品"/><button class="cattopbtu"></button>
+				<div class="divleft" id="myshopping"><img src="img/捕获1_08.png"/><span>我的商城</span> <div class="sanjiao" id="san1"></div>
+				<div id="posleft"></div>
+				</div>
+				<div class="divright" ><img src="img/捕获1_06.png"/><span>购物车</span><div class="sanjiao" id="san2"></div>
+				<div id="posright"></div>
+				</div>
+			</div>
+		</div>
+		<div class="cattopmax3">
+			<div class="cattop3">
+				<div class="nav"> <div id="allnav">
+					<img class="navimg" src="img/捕获-恢复的_03.png"/><span>全部商品</span>
+				</div>
+					<div class="navli">
+						<ul id="navul">
+							<li id="navli1"><a href="#">家用电器</a></li>																				
+						</ul>
+					</div>
+				</div>
+				<div class="nav2"><span>正在热卖</span></div>
+				<div class="nav3"><span>新手指南</span></div>
+				<div class="nav4">
+					<img src="img/捕获-恢复的_05.png" />
+					<img class="erweima" src="img/app.png"/>
+				</div>
+			</div>	
+			</div>
+		<div class="navtop"> 
+			<input type="checkbox" id="allselect" /> 
+			<span >全选</span><span>商品</span> 
+				<div class="rightnav">
+					</span><span>单价</span><span>数量</span><span>小计</span><span>操作</span>	
+				</div>
+			</div>
+			<div class="empty">			
+					<p>您的购物车内暂时没有商品  <a href="index.html">去购物></a></p>
+			</div>
+			<div class="allgoods" id="allgoods">
+			</div><div class="bar"></div>
+			<div class="balance">
+				<input type="checkbox" id="allselectfoot" /> 
+				<span>全选</span>
+				<span id="alldelete">删除全部的商品</span>
+				<span class="selected">已选择<t id="selectnum">0</t>件商品</span>
+				<span>总计：</span><span class="biao">¥</span><span id="sum">00.00</span><img src="img/cath103.png" />
+				<button id="balbtu"></button>
+			</div>
+		<div class="footeradv">
+					<div class="imgadv">
+						<img src="img/footeravd_01.png" />
+					</div>
+					<div class="imgadv2">
+						<img src="img/www_03.png"/>
+					</div>
+				</div>
+		<script>
+			require(["js/libs/require.config"],function(){
+				require(["cartshop"])
+			})
+		</script>
+	</body>
+</html>

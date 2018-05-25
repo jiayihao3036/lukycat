@@ -1,0 +1,22 @@
+
+requirejs.config({
+	baseUrl:"js",
+	paths:{
+		"jquery":"libs/jquery-3.3.1.min",
+		"mybander":"model/mybander",
+		"luky":"model/luky",
+		"bandertop":"model/bandertop",
+		"banderleft":"model/banderleft",
+		"fixdleft":"model/fixdleft",
+		"ajaxjsp":"model/ajaxjsp",
+		"lukygoods":"model/lukygoods",
+		"select":"model/select",
+		"randombander":"model/randombander",
+		"loginselect":"model/loginselect",
+		"VerificationCode":"model/VerificationCode",
+		"cartshop":"model/cartshop",
+		"cartgoods":"model/cartgoods",
+		"cartajax":"model/cartajax",
+		"sever":"model/sever"
+	}
+})

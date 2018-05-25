@@ -1,0 +1,240 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+body{
+	background-color: rgb(241,241,241);
+}
+.cattopmax{
+	width: 100%;
+	height: 80px;
+	background-color: rgb(241,241,241);
+}
+.cattop{
+	width: 1100px;
+	height: 80px;
+	background-color: rgb(241,241,241);
+	margin: 0 auto;
+}
+
+h1{
+	margin-top: 10px;
+	float: left;
+}
+.cattop ul li{
+	list-style: none;
+	display: block;
+	width: 100px;
+	height: 20px;
+	float: right;
+	margin-top: 60px;
+	
+}
+.cattop ul li a{
+	display: block;
+	line-height: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+.login{
+	background-color: white;
+	width: 1100px;
+	height: 630px;
+	margin: 40px auto;
+}
+.imgleft{
+	display: block;
+	float: left;
+}
+.rightlogintext{
+	width: 180px;
+	height: 40px;
+	border-bottom: 2px solid rgb(255,103,0);
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	color: rgb(255,103,0);
+	font-size: 16px;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.leftlogintext{
+	width: 180px;
+	height: 40px;
+	color: gray;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	margin-top: 30px;
+	font-size: 16px;
+}
+.rightlogin{
+	position: relative;
+}
+.righttext{
+	position: absolute;
+	top: 100px;
+	left: 660px;
+	display: block;
+}
+.righttext #user{
+	padding-left: 45px;
+	width: 305px;
+	height: 40px;
+	border:2px solid rgb(241,241,241);
+	background:  url(../img/tupiao2_06.png) no-repeat 15px;
+	background-color: white;
+	float: left;
+	margin: 0 auto;
+	font-size: 14px;
+	outline-color: rgb(255,103,0);
+}
+.fen{
+	width: 305px;
+	height: 30px;
+	float: left;
+}
+#btu{
+	display: block;
+	margin-top: 30px;
+	background-color: rgb(255,103,0);
+	width: 340px;
+	height: 40px;
+	border: none;
+	color: white;
+	font-size: 14px;
+	margin-left: 8px;
+	margin-bottom: 35px;
+	outline: none;
+}
+.righttext #pws{
+	padding-left: 45px;
+	width: 305px;
+	height: 40px;
+	border:2px solid rgb(241,241,241);
+	background: url(../img/tupiao2_09.png) no-repeat 15px;
+	background-color: white;
+	margin-top:20px ;
+	margin: 0 auto;
+	outline-color: rgb(255,103,0);
+	font-size: 14px;
+}
+.footeradv{
+	margin-top: 20px;
+	width: 100%;
+	background-color: white;	
+}
+.footeradv .imgadv{
+	display: block;
+	width: 1100px;
+	margin: 0 auto;
+}
+.footeradv .imgadv2{
+	display: block;
+	width: 1100px;
+	margin: 0 auto;
+	background-color:white ;
+}
+.leftlogin{
+	position: relative;
+}
+.lefttext{
+	position: absolute;
+	top: 100px;
+	left: 660px;
+	display: none;
+}
+.lefttext #zhuceuser{
+	padding-left: 45px;
+	width: 305px;
+	height: 40px;
+	border:2px solid rgb(241,241,241);
+	background:  url(../img/tupiao2_06.png) no-repeat 15px;
+	background-color: white;
+	float: left;
+	margin: 0 auto;
+	outline-color: rgb(255,103,0);
+	font-size: 14px;
+}
+
+#zhucebtu{
+	outline: none;
+	float: left;
+	display: block;
+	margin-top: 30px;
+	background-color:  rgb(180,180,180);
+	width: 340px;
+	height: 40px;
+	border: none;
+	color: white;
+	font-size: 14px;
+	margin-left: 8px;
+	margin-bottom: 35px;
+}
+.lefttext #zhucepwd{
+	padding-left: 45px;
+	width: 305px;
+	height: 40px;
+	border:2px solid rgb(241,241,241);
+	background: url(../img/tupiao2_09.png) no-repeat 15px;
+	background-color: white;
+	margin-top:20px ;
+	margin: 0 auto;
+	outline-color: rgb(255,103,0);;
+	font-size: 14px;
+}
+.jiance{
+	width: 300px;
+	float: left;
+	height: 20px;
+	margin-top: 30px;
+}
+#yanzhengma{
+	padding-left: 45px;
+	width: 150px;
+	height: 40px;
+	border:2px solid rgb(241,241,241);
+	background-color: white;
+	margin-top:20px ;
+	margin: 0 auto;
+	outline-color: rgb(255,103,0);
+	font-size: 14px;
+	float: left;
+}
+#yannum{
+	width: 70px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	border:2px solid rgb(241,241,241);
+	color: rgb(255,103,0);
+	outline: none;
+	font-weight: bolder;
+	font-size: 16px;
+	line-height: 40px;
+	margin-left: 15px;
+	letter-spacing: 3px;
+}
+#check{
+	width: 15px;
+	height: 15px;
+	float: left;
+}
+.jiance a{
+	text-decoration: none;
+	color: rgb(255,103,0);
+	display: block;
+	height: 15px;
+	line-height: 15px;	
+	float: left;
+}
+.title{
+	margin-top: 25px;
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
